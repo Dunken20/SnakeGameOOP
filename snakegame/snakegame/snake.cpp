@@ -1,5 +1,6 @@
 #include "snake.h"
 #include <conio.h>
+#include <ctime>
 
 namespace n_Snake
 {
@@ -95,7 +96,7 @@ namespace n_Snake
         if (headPosX[0] == getApple.getAppleX() && headPosY[0] == getApple.getAppleY())
         {
             // Increase the score and snake length
-            playerScore += 10;
+            playerScore += 1;
             snakeTailLength++;
 
             // Generate a new random position for the apple
