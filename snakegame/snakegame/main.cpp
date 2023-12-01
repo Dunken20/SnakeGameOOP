@@ -137,8 +137,8 @@ getStats::getStats(std::string playerName, std::vector<std::string> leaderBoard)
 
 int main()
 {
-    int gameWidth = 80;
-    int gameHeight = 20;
+    int gameWidth = 45;
+    int gameHeight = 25;
 
     n_Apple::getApple apple(gameWidth, gameHeight);
     n_Snake::Snake snakePlayer;
